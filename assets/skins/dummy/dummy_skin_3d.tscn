@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://ddjouhm76gjbx"]
+
+[ext_resource type="PackedScene" uid="uid://1e45y3wup8c4" path="res://assets/skins/dummy/dummy.glb" id="1_rr1a5"]
+[ext_resource type="Script" uid="uid://6buc6bvs2rr2" path="res://assets/skins/dummy/dummy_skin_3d.gd" id="1_uvklm"]
+[ext_resource type="Shader" uid="uid://bnmnj1wpwfcfy" path="res://assets/skins/gobot/materials/character_shader.gdshader" id="3_yu3lm"]
+[ext_resource type="Texture2D" uid="uid://bi0o8ccvuiej4" path="res://assets/skins/dummy/dummy_diffuse.png" id="4_88q0n"]
+[ext_resource type="Texture2D" uid="uid://dun4w5y08xrn3" path="res://assets/skins/dummy/dummy_normal.png" id="5_e1baa"]
+[ext_resource type="Texture2D" uid="uid://dv0sajpiuwfv7" path="res://assets/skins/dummy/dummy_roughness.png" id="6_s5suu"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yu3lm"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("3_yu3lm")
+shader_parameter/albedo_sampler = ExtResource("4_88q0n")
+shader_parameter/roughness_sampler = ExtResource("6_s5suu")
+shader_parameter/normal_sampler = ExtResource("5_e1baa")
+shader_parameter/base_roughness = 1.0
+shader_parameter/rim_light_color = Color(1, 1, 1, 1)
+shader_parameter/rim_light_intensity = 1.0
+shader_parameter/emission_color = Color(1, 0.345098, 0, 0)
+shader_parameter/emission_intensity = 0.0
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_5axn0"]
+animation = &"idle"
+
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_mc74q"]
+nodes/output/position = Vector2(360, 160)
+nodes/Animation/node = SubResource("AnimationNodeAnimation_5axn0")
+nodes/Animation/position = Vector2(-51, 107)
+node_connections = [&"output", 0, &"Animation"]
+
+[node name="DummySkin" type="Node3D" unique_id=1411642307]
+script = ExtResource("1_uvklm")
+
+[node name="dummy" parent="." unique_id=1393973583 instance=ExtResource("1_rr1a5")]
+unique_name_in_owner = true
+
+[node name="Skeleton3D" parent="dummy/RIG-Armature" parent_id_path=PackedInt32Array(1393973583, 851177870) index="0" unique_id=1248868881]
+bones/0/position = Vector3(0.037208658, 1.0770528, -0.21387613)
+bones/0/rotation = Quaternion(-0.37297615, 0.09139264, 0.06779699, 0.9208365)
+bones/0/scale = Vector3(1, 1, 1)
+bones/1/rotation = Quaternion(-8.75188e-08, 6.143227e-09, 0.06784405, 0.997696)
+bones/2/rotation = Quaternion(9.61924e-08, -1.2330514e-09, 0.05609873, 0.99842525)
+bones/3/position = Vector3(0.045146186, 0.6232438, 3.6256348e-05)
+bones/3/rotation = Quaternion(0.003783145, 0.06243086, -0.020849273, 0.99782443)
+bones/4/position = Vector3(0.027634174, 0.40815383, 6.332151e-08)
+bones/4/rotation = Quaternion(0.9900695, -0.03974601, -0.13473159, -0.0054835435)
+bones/5/position = Vector3(0.16168207, 0.548667, -0.015297473)
+bones/5/rotation = Quaternion(-0.49564663, -0.49172625, -0.4175647, 0.581532)
+bones/5/scale = Vector3(1, 1, 1)
+bones/6/position = Vector3(-0.08171846, 0.56819457, 0.01534682)
+bones/6/rotation = Quaternion(-0.38831207, 0.602177, 0.4709025, 0.5146334)
+bones/6/scale = Vector3(1, 1, 1)
+bones/7/position = Vector3(0.027634196, 0.40815383, 4.9761018e-09)
+bones/7/rotation = Quaternion(0.0025798844, 0.062492013, -0.04003957, 0.99723876)
+bones/8/rotation = Quaternion(-0.00019822898, -0.0058717206, -0.034148466, 0.9993996)
+
+[node name="dummy2" parent="dummy/RIG-Armature/Skeleton3D" index="0" unique_id=107527978]
+material_override = SubResource("ShaderMaterial_yu3lm")
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=379960618]
+root_node = NodePath("%dummy")
+tree_root = SubResource("AnimationNodeBlendTree_mc74q")
+anim_player = NodePath("../dummy/AnimationPlayer")
+
+[editable path="dummy"]

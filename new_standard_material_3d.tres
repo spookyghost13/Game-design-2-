@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ccypd81s0p18j"]
+
+[ext_resource type="Texture2D" uid="uid://brbtohct73mlt" path="res://assets/level/checkboard.png" id="1_lquvc"]
+
+[resource]
+albedo_color = Color(0.20392157, 0.20392157, 0.20392157, 1)
+albedo_texture = ExtResource("1_lquvc")
+metallic = 0.77
+metallic_specular = 0.83
+roughness = 0.72
+uv1_triplanar = true

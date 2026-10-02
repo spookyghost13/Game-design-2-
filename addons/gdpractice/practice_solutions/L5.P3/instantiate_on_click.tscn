@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dp2x17ndrbqca"]
+
+[ext_resource type="Script" uid="uid://c6jxnqxrsujwx" path="res://addons/gdpractice/practice_solutions/L5.P3/instantiate_on_click.gd" id="1_bvyef"]
+[ext_resource type="PackedScene" uid="uid://bosa48x4gwq0k" path="res://assets/background.tscn" id="3_7tm4t"]
+
+[node name="InstantiateOnClick" type="Node3D" unique_id=1654914868]
+top_level = true
+script = ExtResource("1_bvyef")
+
+[node name="CameraAnchor" type="Node3D" parent="." unique_id=369376672]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0.7, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CameraAnchor" unique_id=1249102590]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.76837e-07, 28)
+current = true
+fov = 25.0
+size = 12.555
+near = 15.0
+far = 100.0
+
+[node name="Background" parent="." unique_id=1932620299 instance=ExtResource("3_7tm4t")]

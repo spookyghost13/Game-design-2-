@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://djm6038sammf7"]
+
+[ext_resource type="Script" uid="uid://5j0af5y5kxgb" path="res://lessons/projectile_3d.gd" id="1_xparq"]
+[ext_resource type="PackedScene" uid="uid://s7nj1a3i2m1m" path="res://assets/vfx/ice_spikes/ice_spikes.tscn" id="2_xparq"]
+[ext_resource type="PackedScene" uid="uid://232aww8oks7n" path="res://assets/vfx/fireball/fireball_impact.tscn" id="3_vk8yx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_obgk2"]
+size = Vector3(3, 1, 3.2)
+
+[node name="Projectile3D" type="Area3D" unique_id=782685975]
+script = ExtResource("1_xparq")
+projectile_vfx = ExtResource("2_xparq")
+impact_vfx = ExtResource("3_vk8yx")
+can_hit = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1953635763]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.1)
+shape = SubResource("BoxShape3D_obgk2")
+
+[node name="Timer" type="Timer" parent="." unique_id=1422811665]
+unique_name_in_owner = true
+wait_time = 0.5
+one_shot = true
+ignore_time_scale = true

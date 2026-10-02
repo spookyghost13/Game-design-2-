@@ -1,0 +1,28 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c6gus7mhso27x"]
+
+[ext_resource type="Shader" uid="uid://do7y1rne2hqax" path="res://assets/vfx/ice_spikes/materials/ice_spikes_process.gdshader" id="1_nk306"]
+
+[sub_resource type="Gradient" id="Gradient_yfki1"]
+offsets = PackedFloat32Array(0, 0.75206614, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_btswb"]
+gradient = SubResource("Gradient_yfki1")
+
+[sub_resource type="Gradient" id="Gradient_yxb31"]
+offsets = PackedFloat32Array(0, 0.06887052, 0.8236915, 1)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_tbrwr"]
+gradient = SubResource("Gradient_yxb31")
+
+[resource]
+shader = ExtResource("1_nk306")
+shader_parameter/particles_count = 8
+shader_parameter/min_radius = 0.5
+shader_parameter/max_radius = 1.0
+shader_parameter/min_scale = 0.8
+shader_parameter/max_scale = 1.0
+shader_parameter/alpha_curve = SubResource("GradientTexture1D_btswb")
+shader_parameter/curve_sampler = SubResource("GradientTexture1D_tbrwr")
+shader_parameter/sub_emitter_frequency = 0.0

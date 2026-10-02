@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://do0v6f0n8bkrf"]
+
+[ext_resource type="Script" uid="uid://5j0af5y5kxgb" path="res://lessons/projectile_3d.gd" id="1_g2h15"]
+[ext_resource type="PackedScene" uid="uid://caxbqhwe5nxb3" path="res://assets/vfx/fireball/fireball.tscn" id="2_40reo"]
+[ext_resource type="PackedScene" uid="uid://232aww8oks7n" path="res://assets/vfx/fireball/fireball_impact.tscn" id="3_ba3l8"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_obgk2"]
+radius = 0.3
+
+[node name="Projectile3D" type="Area3D" unique_id=782685975]
+script = ExtResource("1_g2h15")
+projectile_vfx = ExtResource("2_40reo")
+impact_vfx = ExtResource("3_ba3l8")
+can_hit = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2025680710]
+unique_name_in_owner = true
+shape = SubResource("SphereShape3D_obgk2")
+
+[node name="Timer" type="Timer" parent="." unique_id=1620673226]
+unique_name_in_owner = true
+one_shot = true

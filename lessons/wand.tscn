@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cwws4dah8im47"]
+
+[ext_resource type="Script" uid="uid://ci0mp24qag55b" path="res://lessons/wand.gd" id="1_akdmc"]
+[ext_resource type="PackedScene" uid="uid://do0v6f0n8bkrf" path="res://lessons/projectile_3d.tscn" id="2_11xym"]
+[ext_resource type="PackedScene" uid="uid://djm6038sammf7" path="res://lessons/projectile_3d_2.tscn" id="3_8oip0"]
+
+[node name="Wand" type="Marker3D" unique_id=1502871393]
+script = ExtResource("1_akdmc")
+projectile_scene = ExtResource("2_11xym")
+projectile_scene_2 = ExtResource("3_8oip0")
+fire_rate = 2.0
+
+[node name="Timer" type="Timer" parent="." unique_id=728580400]
+unique_name_in_owner = true
+one_shot = true
+
+[node name="Timer2" type="Timer" parent="." unique_id=777549773]
+unique_name_in_owner = true
+one_shot = true

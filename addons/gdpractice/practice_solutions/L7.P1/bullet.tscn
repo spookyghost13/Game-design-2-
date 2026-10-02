@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cqy6qlgm854e7"]
+
+[ext_resource type="Script" uid="uid://bse1bf6qw7cae" path="res://addons/gdpractice/practice_solutions/L6.P1/bullet.gd" id="1_2gx4q"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_icj8y"]
+radius = 0.2
+
+[node name="Bullet" type="Area3D" unique_id=1496134022]
+script = ExtResource("1_2gx4q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1541172834]
+shape = SubResource("SphereShape3D_icj8y")
