@@ -189,7 +189,7 @@ material = ExtResource("2_viysf")
 [node name="Everything else" type="Node" parent="." unique_id=476620563]
 
 [node name="Player3d" parent="Everything else" unique_id=1995079123 instance=ExtResource("1_b2m5v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130, 24, -9)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 24, -1)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Everything else" unique_id=1276122989]
 transform = Transform3D(0.44723228, 0.88634634, 0.11988985, -0.3030683, 0.024061767, 0.95266503, 0.84150636, -0.46239737, 0.2793847, -4, 6, 4)
@@ -217,7 +217,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, -1)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 2)
 
 [node name="shiny_telaport" parent="Everything else" unique_id=1107218494 instance=ExtResource("9_tpjcj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5)
 
 [node name="shiny_telaport2" parent="Everything else" unique_id=1751512063 instance=ExtResource("9_tpjcj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -126, 52, 44)
