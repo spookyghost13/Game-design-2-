@@ -1,1 +1,3 @@
 .godot/uid_cache.bin
+.godot/editor/editor_layout.cfg
+.godot/editor/sctipt_editor_cache.cfg
