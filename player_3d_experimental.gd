@@ -1,10 +1,10 @@
 extends CharacterBody3D
 
 
-const SPEED = 10.0
-const JUMP_VELOCITY = 8.5
+const SPEED = 10.5
+const JUMP_VELOCITY = 9.8
 var canjump=true
-var gravity=Vector3(0,-9.8,0)
+var gravity=Vector3(0,-15.8,0)
 
 func _physics_process(delta: float) -> void:
 	_update_camera(delta)

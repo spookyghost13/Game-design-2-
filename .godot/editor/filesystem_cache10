@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790972720
+::res://::1791228735
 Hitbox_3d.gd::GDScript::3941744021048580028::1788980820::0::1::::Hitbox3D<>Area3D<>res://assets/icons/hit_box_3d.svg<>0<>1<><>::
 Hurtbox_3d.gd::GDScript::582189760046549701::1788553067::0::1::::Hurtbox3D<>Area3D<>res://assets/icons/hurt_box_3d.svg<>0<>1<><>::
 icon.png::CompressedTexture2D::3920665917793430229::1790972178::1790972183::1::::<><><>0<>0<>68a7037443c4bf480e856e845044151d<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
@@ -16,7 +16,7 @@ gdpractice.gd::GDScript::5979087022897298672::1787771420::0::1::::<>EditorPlugin
 metadata.gd::GDScript::2985675861330059244::1787771420::0::1::::<>Node<><>0<>1<><>::
 paths.gd::GDScript::82790454512892745::1787771420::0::1::::<>RefCounted<><>0<>0<><>::
 plugin.cfg::TextFile::-1::1787771420::0::1::::<><><>0<>0<><>::
-::res://addons/gdpractice/assets/::1790969946
+::res://addons/gdpractice/assets/::1790972726
 checkbox_empty.svg::CompressedTexture2D::159996384623349208::1787771420::1787774478::1::::<><><>0<>0<>53bb7d2a866cb16a1a0471a771b4b0d7<>res://.godot/imported/checkbox_empty.svg-670795e6630909b934b40801062ec14f.ctex::
 checkbox_ticked.svg::CompressedTexture2D::4681739381960142151::1787771420::1787774478::1::::<><><>0<>0<>3072ea58afe0e073a60f9898f0f71ce4<>res://.godot/imported/checkbox_ticked.svg-564ad4b3ab0ae5c1e5fc8f01f4337ab7.ctex::
 dash_border.png::CompressedTexture2D::5174105164185721961::1787771420::1787774478::1::::<><><>0<>0<>371e521bb8f2b6b13019e828e8c0006f<>res://.godot/imported/dash_border.png-62c45c79b21ca5931452928502aa8536.ctex::
@@ -25,7 +25,7 @@ input_arrow.svg::CompressedTexture2D::4441352498702649159::1787771420::178777447
 input_mouse_base.svg::CompressedTexture2D::7057538906146452317::1787771420::1787774478::1::::<><><>0<>0<>a625696e0d39362100b6d3e86d40a4d8<>res://.godot/imported/input_mouse_base.svg-dbf80cc9a5deece90e8d05ef17a0c72f.ctex::
 input_mouse_left_click.svg::CompressedTexture2D::3923731288610382921::1787771420::1787774478::1::::<><><>0<>0<>b47916257ec9d9294c46de2a7ec3eb29<>res://.godot/imported/input_mouse_left_click.svg-be147924c06daa7ed438424ff9b7c06d.ctex::
 new_style_box_flat.tres::StyleBoxFlat::2828730235135847896::1787771420::0::1::::<><><>0<>0<><>::
-theme.tres::Theme::3147173487228338806::1790969946::0::1::::<><><>0<>0<><>::uid://d3u2nhkuevn1l::::res://addons/gdpractice/assets/fonts/Inter-Bold.ttf<>uid://deeixt6cs64ak::::res://addons/gdpractice/assets/fonts/Inter-SemiBold.ttf<>uid://b4dj3x16cr0vk::::res://addons/gdpractice/assets/fonts/Inter-ExtraBoldItalic.otf<>uid://btiybsu6acuy7::::res://addons/gdpractice/assets/fonts/Montserrat-Bold.ttf<>uid://h13sewj2ined::::res://addons/gdpractice/assets/fonts/Inter-BoldItalic.otf<>uid://c5j5yg0bc1jec::::res://addons/gdpractice/assets/fonts/Inter-Italic.otf<>uid://bhubmlwupfvt5::::res://addons/gdpractice/assets/fonts/Inter-Medium.ttf
+theme.tres::Theme::3147173487228338806::1790972726::0::1::::<><><>0<>0<><>::uid://d3u2nhkuevn1l::::res://addons/gdpractice/assets/fonts/Inter-Bold.ttf<>uid://deeixt6cs64ak::::res://addons/gdpractice/assets/fonts/Inter-SemiBold.ttf<>uid://b4dj3x16cr0vk::::res://addons/gdpractice/assets/fonts/Inter-ExtraBoldItalic.otf<>uid://btiybsu6acuy7::::res://addons/gdpractice/assets/fonts/Montserrat-Bold.ttf<>uid://h13sewj2ined::::res://addons/gdpractice/assets/fonts/Inter-BoldItalic.otf<>uid://c5j5yg0bc1jec::::res://addons/gdpractice/assets/fonts/Inter-Italic.otf<>uid://bhubmlwupfvt5::::res://addons/gdpractice/assets/fonts/Inter-Medium.ttf
 ::res://addons/gdpractice/assets/fonts/::1787774479
 Inter-Bold.ttf::FontFile::9167500186177253915::1787771420::1787774478::1::::<><><>0<>0<>2757372c7102dc28acb4cde6898256ee<>res://.godot/imported/Inter-Bold.ttf-8d68871aa6b1ad81a20ff97664dd0e9f.fontdata::
 Inter-BoldItalic.otf::FontFile::546728191683957199::1787771420::1787774478::1::::<><><>0<>0<>727278314f12df2533a872f8690f5476<>res://.godot/imported/Inter-BoldItalic.otf-3cddc448bbbebbbbd6abf92d039f40c5.fontdata::
@@ -170,7 +170,7 @@ ice_spikes_icon.png::CompressedTexture2D::7847833199732000029::1787771422::17877
 skull_icon.png::CompressedTexture2D::8298612014760964626::1787771422::1787774479::1::::<><><>0<>0<>29136b792e2f851366edd6ccf60c9125<>res://.godot/imported/skull_icon.png-5de68c94314d30833c6eacb53dd7fbaf.ctex::
 ::res://assets/level/::1787774478
 checkboard.png::CompressedTexture2D::3582874398931153145::1787771422::1787774478::1::::<><><>0<>0<>6ed8cc2c9573b417875cc251e874192f<>res://.godot/imported/checkboard.png-e7f9e46e90861fac5b57619fc2a1b395.ctex::
-::res://assets/Models/::1790972388
+::res://assets/Models/::1790972722
 Battery.glb::PackedScene::4284985440855023277::1790193821::1790972721::1::::<><><>0<>0<>77269ba2cfeed443f1bbe984bcc9c473<>res://.godot/imported/Battery.glb-da9728e52911991105845fef1eaed0b5.scn::
 Caterminal.glb::PackedScene::7425737723139369134::1790190332::1790972721::1::::<><><>0<>0<>8ac0407ba7057e9379716cf744c4b829<>res://.godot/imported/Caterminal.glb-441d2b15521eeb7335264f053d4282b8.scn::
 exit.glb::PackedScene::4613171191031852347::1790972230::1790972721::1::::<><><>0<>0<>6a4a5f76af840f2b4be928b779b8c3ce<>res://.godot/imported/exit.glb-0ac14b831555007723a01c8e2b64d9ce.scn::
@@ -255,15 +255,15 @@ ice_shards_process.gdshader::Shader::7860492505543706449::1787771423::0::1::::<>
 ice_spike.obj::Mesh::6567416371113513966::1787771423::1787774480::1::::<><><>0<>0<>bbe2ac20656342a957baeba33f4831af<>res://.godot/imported/ice_spike.obj-d69fc0d29612b91489e13774507a253b.mesh<*>res://.godot/imported/ice_spike.obj-d69fc0d29612b91489e13774507a253b.mesh::
 ice_spikes.gd::GDScript::5074017859436743389::1787771423::0::1::::<>ProjectileSkin3D<><>0<>1<><>::
 ice_spikes.tscn::PackedScene::1330266033556666120::1789155843::0::1::::<><><>0<>0<><>::uid://cej5lk0hsfnq8::::res://assets/vfx/ice_spikes/ice_spikes.gd<>uid://gra1a5ygb2fv::::res://assets/vfx/ice_spikes/materials/ice_spikes_mat.tres<>uid://c6gus7mhso27x::::res://assets/vfx/ice_spikes/materials/ice_spikes_process_mat.tres<>uid://c0tkngwxwsqc1::::res://assets/vfx/ice_spikes/ice_spike.obj<>uid://b0byehf0b83uf::::res://assets/vfx/ice_spikes/materials/ice_shards_mat.tres<>uid://dj8xfst22okg4::::res://assets/vfx/ice_spikes/ice_shards_process.gdshader<>uid://doyn5fi2yuw30::::res://assets/vfx/ice_spikes/materials/frost_mat.tres
-::res://assets/vfx/ice_spikes/materials/::1790969946
+::res://assets/vfx/ice_spikes/materials/::1790972726
 frost.gdshader::Shader::3910885486317083347::1787771423::0::1::::<><><>0<>0<><>::
-frost_mat.tres::ShaderMaterial::8192294099067129129::1790969946::0::1::::<><><>0<>0<><>::uid://bvypyhy61qvd0::::res://assets/vfx/ice_spikes/materials/frost.gdshader
+frost_mat.tres::ShaderMaterial::8192294099067129129::1790972726::0::1::::<><><>0<>0<><>::uid://bvypyhy61qvd0::::res://assets/vfx/ice_spikes/materials/frost.gdshader
 ice_shards.gdshader::Shader::7090723593941502998::1787771423::0::1::::<><><>0<>0<><>::
 ice_shards_mat.tres::ShaderMaterial::4144670879926010261::1787771423::0::1::::<><><>0<>0<><>::uid://c8a2gf7tnyx3s::::res://assets/vfx/ice_spikes/materials/ice_shards.gdshader
 ice_spikes.gdshader::Shader::6641394426140155651::1787771423::0::1::::<><><>0<>0<><>::
 ice_spikes_mat.tres::ShaderMaterial::456273961731409171::1787771423::0::1::::<><><>0<>0<><>::uid://c1ve2cbhklirj::::res://assets/vfx/ice_spikes/materials/ice_spikes.gdshader
 ice_spikes_process.gdshader::Shader::8209470501807118079::1787771423::0::1::::<><><>0<>0<><>::
-ice_spikes_process_mat.tres::ShaderMaterial::6962329970462724275::1790969946::0::1::::<><><>0<>0<><>::uid://do7y1rne2hqax::::res://assets/vfx/ice_spikes/materials/ice_spikes_process.gdshader
+ice_spikes_process_mat.tres::ShaderMaterial::6962329970462724275::1790972726::0::1::::<><><>0<>0<><>::uid://do7y1rne2hqax::::res://assets/vfx/ice_spikes/materials/ice_spikes_process.gdshader
 ::res://assets/vfx/smoke_vfx/::1790106720
 default.res::Animation::821507829150262441::1787771423::0::1::::<><><>0<>0<><>::
 metalfloor.glb::PackedScene::1067204746235115710::1790106719::1790106720::1::::<><><>0<>0<>676b531286ad64bf76d00f6bd9829db7<>res://.godot/imported/metalfloor.glb-d2b95146a235123a319d201226808a97.scn::uid://ig1t1yo5wksd::::res://assets/vfx/smoke_vfx/metalfloor_metalfloor.jpg
@@ -279,10 +279,10 @@ outer_smoke.tres::ShaderMaterial::6133779181506885685::1787771423::0::1::::<><><
 stars.gdshader::Shader::5901838896128040497::1787771423::0::1::::<><><>0<>0<><>::
 star_icon.png::CompressedTexture2D::8872180076739522440::1787771423::1787774479::1::::<><><>0<>0<>cd8d248d9101576e106b6b46ab655cc3<>res://.godot/imported/star_icon.png-ed64184f560f429d58b9db533b2dc91a.s3tc.ctex::
 star_trail.gdshader::Shader::8209644435760306464::1787771423::0::1::::<><><>0<>0<><>::
-::res://lessons/::1790971751
+::res://lessons/::1790972726
 game.tscn::PackedScene::3621540155012204532::1790969947::0::1::::<><><>0<>0<><>::uid://btfvaxt4o1f78::::res://lessons/player_3d.tscn<>uid://brbtohct73mlt::::res://assets/level/checkboard.png<>uid://ccypd81s0p18j::::res://new_standard_material_3d.tres<>uid://7n1ap2he21li::::res://lessons/target_3d.tscn<>uid://b5b63nfvhxted::::res://assets/metalfloor.glb<>uid://cjxvxlxnsni7o::::res://Test Assets/Caterminal.glb<>uid://c84a84bhu82eb::::res://Test Assets/Battery.glb<>uid://nwkfndvdudv8::::res://Test Assets/PlasmaBolter.glb
 player_3d.gd::GDScript::7029284395653828004::1788293874::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player_3d.tscn::PackedScene::3731606897159812997::1790971751::0::1::::<><><>0<>0<><>::uid://cy36aygvs66pn::::res://assets/skins/gobot/gobot_skin_3d.tscn<>uid://bcxue54467rqp::::res://player_3d_experimental.gd<>uid://cwws4dah8im47::::res://lessons/wand.tscn<>uid://ikaty2xb1dur::::res://Hurtbox_3d.gd
+player_3d.tscn::PackedScene::3731606897159812997::1790972726::0::1::::<><><>0<>0<><>::uid://cy36aygvs66pn::::res://assets/skins/gobot/gobot_skin_3d.tscn<>uid://bcxue54467rqp::::res://player_3d_experimental.gd<>uid://cwws4dah8im47::::res://lessons/wand.tscn<>uid://ikaty2xb1dur::::res://Hurtbox_3d.gd
 projectile_3d.gd::GDScript::2125762943838514393::1788982770::0::1::::Projectile3D<>Hitbox3D<><>0<>1<><>::
 projectile_3d.tscn::PackedScene::8194846024194070631::1788980820::0::1::::<><><>0<>0<><>::uid://5j0af5y5kxgb::::res://lessons/projectile_3d.gd<>uid://caxbqhwe5nxb3::::res://assets/vfx/fireball/fireball.tscn<>uid://232aww8oks7n::::res://assets/vfx/fireball/fireball_impact.tscn
 projectile_3d_2.tscn::PackedScene::7817662570944367834::1788982725::0::1::::<><><>0<>0<><>::uid://5j0af5y5kxgb::::res://lessons/projectile_3d.gd<>uid://s7nj1a3i2m1m::::res://assets/vfx/ice_spikes/ice_spikes.tscn<>uid://232aww8oks7n::::res://assets/vfx/fireball/fireball_impact.tscn
