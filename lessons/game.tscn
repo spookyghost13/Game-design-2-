@@ -33,7 +33,7 @@ fog_sky_affect = 0.5
 fog_height = -1.0
 fog_height_density = 1.0
 
-[node name="Game" type="Node3D" unique_id=1402552136]
+[node name="Tutorial" type="Node3D" unique_id=1402552136]
 
 [node name="Boxes folder" type="Node" parent="." unique_id=1762712991]
 
