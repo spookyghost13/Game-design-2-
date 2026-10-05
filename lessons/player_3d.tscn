@@ -32,7 +32,7 @@ unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, -0.6)
 
 [node name="CameraAnchor" type="Camera3D" parent="." unique_id=1471766591]
-transform = Transform3D(1, 0, 0, 0, 0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 1, 1.5, 0)
 
 [node name="Camera3D" type="Camera3D" parent="CameraAnchor" unique_id=1238848971]
 unique_name_in_owner = true
