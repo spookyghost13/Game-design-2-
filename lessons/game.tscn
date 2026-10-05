@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cjxvxlxnsni7o" path="res://Test Assets/Caterminal.glb" id="5_sepuf"]
 [ext_resource type="PackedScene" uid="uid://c84a84bhu82eb" path="res://Test Assets/Battery.glb" id="6_48faf"]
 [ext_resource type="PackedScene" uid="uid://nwkfndvdudv8" path="res://Test Assets/PlasmaBolter.glb" id="7_cpqg5"]
+[ext_resource type="PackedScene" uid="uid://b430yfkptn0l8" path="res://lessons/shiny_telaport.glb" id="9_tpjcj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w6k2d"]
 albedo_color = Color(0.05882353, 0.3882353, 0.25490198, 1)
@@ -188,6 +189,7 @@ material = ExtResource("2_viysf")
 [node name="Everything else" type="Node" parent="." unique_id=476620563]
 
 [node name="Player3d" parent="Everything else" unique_id=1995079123 instance=ExtResource("1_b2m5v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Everything else" unique_id=1276122989]
 transform = Transform3D(0.44723228, 0.88634634, 0.11988985, -0.3030683, 0.024061767, 0.95266503, 0.84150636, -0.46239737, 0.2793847, -4, 6, 4)
@@ -206,10 +208,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 4)
 
 [node name="Caterminal" parent="Everything else" unique_id=696454486 instance=ExtResource("5_sepuf")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1, 1, -8)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 2, 1, -8)
 
 [node name="Battery" parent="Everything else" unique_id=1198596147 instance=ExtResource("6_48faf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, -1)
 
 [node name="PlasmaBolter" parent="Everything else" unique_id=1770611393 instance=ExtResource("7_cpqg5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 2)
+
+[node name="shiny_telaport" parent="Everything else" unique_id=1107218494 instance=ExtResource("9_tpjcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5)
+
+[node name="shiny_telaport2" parent="Everything else" unique_id=1751512063 instance=ExtResource("9_tpjcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -126, 52, 44)

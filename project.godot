@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="The Nefarious Feline Game Project Real Final Final (1).png"
+config/version="1"
 run/main_scene="uid://brukiciptkc1y"
 config/features=PackedStringArray("4.7")
 run/max_fps=60
