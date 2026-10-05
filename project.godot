@@ -20,7 +20,6 @@ config/icon="uid://bv4g2a31erw42"
 [autoload]
 
 UITestPanel="*uid://bnnxfl3thl8qk"
-Metadata="*uid://bueias8qhdf4s"
 
 [debug]
 
@@ -170,3 +169,4 @@ renderer/rendering_method="mobile"
 anti_aliasing/quality/msaa_3d=2
 environment/defaults/default_clear_color=Color(0.223529, 0.160784, 0.27451, 1)
 2d/snapping/use_gpu_pixel_snap=true
+2d/version=""

@@ -189,7 +189,7 @@ material = ExtResource("2_viysf")
 [node name="Everything else" type="Node" parent="." unique_id=476620563]
 
 [node name="Player3d" parent="Everything else" unique_id=1995079123 instance=ExtResource("1_b2m5v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130, 24, -9)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Everything else" unique_id=1276122989]
 transform = Transform3D(0.44723228, 0.88634634, 0.11988985, -0.3030683, 0.024061767, 0.95266503, 0.84150636, -0.46239737, 0.2793847, -4, 6, 4)

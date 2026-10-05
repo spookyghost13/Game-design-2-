@@ -1,7 +1,8 @@
+CSGBox3D
+CollisionShape3D
 Timer
 Camera3D
 Node
-CollisionShape3D
 Hurtbox3D
 Hitbox3D
 Node3D
@@ -10,4 +11,3 @@ Marker3D
 Area3D
 WorldEnvironment
 DirectionalLight3D
-CSGBox3D
