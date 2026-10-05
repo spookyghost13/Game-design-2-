@@ -1,7 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791229222
-Hitbox_3d.gd::GDScript::3941744021048580028::1791228704::0::1::::Hitbox3D<>Area3D<><>0<>1<><>::
-Hurtbox_3d.gd::GDScript::582189760046549701::1791228704::0::1::::Hurtbox3D<>Area3D<><>0<>1<><>::
+::res://::1791229632
+Hitbox_3d.gd::GDScript::3941744021048580028::1791228704::0::1::::Hitbox3D<>Area3D<>res://assets/icons/hit_box_3d.svg<>0<>1<><>::
+Hurtbox_3d.gd::GDScript::582189760046549701::1791228704::0::1::::Hurtbox3D<>Area3D<>res://assets/icons/hurt_box_3d.svg<>0<>1<><>::
 icon.png::CompressedTexture2D::3920665917793430229::1791228705::1791229228::1::::<><><>0<>0<>68a7037443c4bf480e856e845044151d<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 new_standard_material_3d.tres::StandardMaterial3D::4963682007320249499::1791228705::0::1::::<><><>0<>0<><>::uid://brbtohct73mlt::::res://assets/level/checkboard.png
 player_3d_experimental.gd::GDScript::2575502164203653571::1791229222::0::1::::<>CharacterBody3D<><>0<>0<><>::
@@ -15,7 +15,7 @@ gdpractice.gd::GDScript::5979087022897298672::1791228704::0::1::::<>EditorPlugin
 metadata.gd::GDScript::2985675861330059244::1791228704::0::1::::<>Node<><>0<>1<><>::
 paths.gd::GDScript::82790454512892745::1791228704::0::1::::<>RefCounted<><>0<>0<><>::
 plugin.cfg::TextFile::-1::1791228704::0::1::::<><><>0<>0<><>::
-::res://addons/gdpractice/assets/::1791229219
+::res://addons/gdpractice/assets/::1791229228
 checkbox_empty.svg::CompressedTexture2D::159996384623349208::1791228704::1791229228::1::::<><><>0<>0<>53bb7d2a866cb16a1a0471a771b4b0d7<>res://.godot/imported/checkbox_empty.svg-670795e6630909b934b40801062ec14f.ctex::
 checkbox_ticked.svg::CompressedTexture2D::4681739381960142151::1791228704::1791229228::1::::<><><>0<>0<>3072ea58afe0e073a60f9898f0f71ce4<>res://.godot/imported/checkbox_ticked.svg-564ad4b3ab0ae5c1e5fc8f01f4337ab7.ctex::
 dash_border.png::CompressedTexture2D::5174105164185721961::1791228704::1791229228::1::::<><><>0<>0<>371e521bb8f2b6b13019e828e8c0006f<>res://.godot/imported/dash_border.png-62c45c79b21ca5931452928502aa8536.ctex::
@@ -25,7 +25,7 @@ input_mouse_base.svg::CompressedTexture2D::7057538906146452317::1791228704::1791
 input_mouse_left_click.svg::CompressedTexture2D::3923731288610382921::1791228704::1791229228::1::::<><><>0<>0<>b47916257ec9d9294c46de2a7ec3eb29<>res://.godot/imported/input_mouse_left_click.svg-be147924c06daa7ed438424ff9b7c06d.ctex::
 new_style_box_flat.tres::StyleBoxFlat::2828730235135847896::1791228704::0::1::::<><><>0<>0<><>::
 theme.tres::Theme::3147173487228338806::1791229219::0::1::::<><><>0<>0<><>::uid://d3u2nhkuevn1l::::res://addons/gdpractice/assets/fonts/Inter-Bold.ttf<>uid://deeixt6cs64ak::::res://addons/gdpractice/assets/fonts/Inter-SemiBold.ttf<>uid://b4dj3x16cr0vk::::res://addons/gdpractice/assets/fonts/Inter-ExtraBoldItalic.otf<>uid://btiybsu6acuy7::::res://addons/gdpractice/assets/fonts/Montserrat-Bold.ttf<>uid://h13sewj2ined::::res://addons/gdpractice/assets/fonts/Inter-BoldItalic.otf<>uid://c5j5yg0bc1jec::::res://addons/gdpractice/assets/fonts/Inter-Italic.otf<>uid://bhubmlwupfvt5::::res://addons/gdpractice/assets/fonts/Inter-Medium.ttf
-::res://addons/gdpractice/assets/fonts/::1791229219
+::res://addons/gdpractice/assets/fonts/::1791229228
 Inter-Bold.ttf::FontFile::9167500186177253915::1791228704::1791229228::1::::<><><>0<>0<>2757372c7102dc28acb4cde6898256ee<>res://.godot/imported/Inter-Bold.ttf-8d68871aa6b1ad81a20ff97664dd0e9f.fontdata::
 Inter-BoldItalic.otf::FontFile::546728191683957199::1791228704::1791229228::1::::<><><>0<>0<>727278314f12df2533a872f8690f5476<>res://.godot/imported/Inter-BoldItalic.otf-3cddc448bbbebbbbd6abf92d039f40c5.fontdata::
 Inter-ExtraBoldItalic.otf::FontFile::4428687987236291520::1791228704::1791229228::1::::<><><>0<>0<>248933cfcac5d124e49f851976c81c7e<>res://.godot/imported/Inter-ExtraBoldItalic.otf-b9d0f29a24ad65f51bdcad262851bf1a.fontdata::
@@ -34,7 +34,7 @@ Inter-LightItalic.otf::FontFile::3864308319226171270::1791228704::1791229228::1:
 Inter-Medium.ttf::FontFile::2919112903431672208::1791228704::1791229228::1::::<><><>0<>0<>8035cfa9be137030b0381a843f408d7d<>res://.godot/imported/Inter-Medium.ttf-6a02ea08ec08c1420786bc16fb871583.fontdata::
 Inter-SemiBold.ttf::FontFile::7448802791798382614::1791228704::1791229228::1::::<><><>0<>0<>5a2a7e68d680faa1b9ff13919232e28d<>res://.godot/imported/Inter-SemiBold.ttf-7a52b5f9a34f68343e7114d66a2a3bad.fontdata::
 Montserrat-Bold.ttf::FontFile::3737983706193486224::1791228704::1791229228::1::::<><><>0<>0<>b66c74d428dd855560b4c71a39b5a373<>res://.godot/imported/Montserrat-Bold.ttf-b0af5c882e8ef3310132b6d45ccf6d14.fontdata::
-::res://addons/gdpractice/assets/icons/::1791229219
+::res://addons/gdpractice/assets/icons/::1791229228
 fail.svg::CompressedTexture2D::3256634404571566106::1791228704::1791229228::1::::<><><>0<>0<>e2b5bcaf77152017b3485877fe5f7f75<>res://.godot/imported/fail.svg-c28ca2d3eed437304e5c44757b16550e.ctex::
 hand_note.svg::CompressedTexture2D::8466272797257914539::1791228704::1791229228::1::::<><><>0<>0<>a9c98ea6e4c828d5a3db40b990492b20<>res://.godot/imported/hand_note.svg-4f5066b77ed60e2f793ac3a66eee10b7.ctex::
 hand_ok.svg::CompressedTexture2D::1930647949605116032::1791228704::1791229228::1::::<><><>0<>0<>6bbd51a18e93b789260fc1bcefe755b4<>res://.godot/imported/hand_ok.svg-6e598c51e8fb89574b80189b6ec414d9.ctex::
@@ -138,38 +138,38 @@ functions.gd::GDScript::2467611513514147136::1791228704::0::1::::<>RefCounted<><
 gizmo_functions.gd::GDScript::2589386678466953258::1791228704::0::1::::<>RefCounted<><>0<>0<><>::
 plugin.cfg::TextFile::-1::1791228704::0::1::::<><><>0<>0<><>::
 plugin.gd::GDScript::1714449728044706774::1791228704::0::1::::<>EditorPlugin<><>0<>1<><>::
-wiggle_bone.gd::GDScript::6637001761841137526::1791228704::0::1::::WiggleBone<>BoneAttachment3D<><>0<>1<><>::
+wiggle_bone.gd::GDScript::6637001761841137526::1791228704::0::1::::WiggleBone<>BoneAttachment3D<>res://addons/wigglebone/icons/wiggle_bone.svg<>0<>1<><>::
 wiggle_gizmo_plugin.gd::GDScript::4545395572886900278::1791228704::0::1::::<>EditorNode3DGizmoPlugin<><>0<>1<><>::
 wiggle_position_gizmo_plugin.gd::GDScript::4278238909059457142::1791228704::0::1::::<>EditorNode3DGizmoPlugin<><>0<>1<><>::
-wiggle_position_modifier_3d.gd::GDScript::6243305820211121494::1791228704::0::1::::DMWBWigglePositionModifier3D<>SkeletonModifier3D<><>0<>1<><>::
-wiggle_position_properties_3d.gd::GDScript::824321244078835298::1791228704::0::1::::DMWBWigglePositionProperties3D<>Resource<><>0<>1<><>::
+wiggle_position_modifier_3d.gd::GDScript::6243305820211121494::1791228704::0::1::::DMWBWigglePositionModifier3D<>SkeletonModifier3D<>res://addons/wigglebone/icons/wiggle_position_modifier_3d.svg<>0<>1<><>::
+wiggle_position_properties_3d.gd::GDScript::824321244078835298::1791228704::0::1::::DMWBWigglePositionProperties3D<>Resource<>res://addons/wigglebone/icons/wiggle_position_properties_3d.svg<>0<>1<><>::
 wiggle_properties.gd::GDScript::3756543882919855395::1791228704::0::1::::WiggleProperties<>Resource<><>0<>1<><>::
 wiggle_rotation_gizmo_plugin.gd::GDScript::5257263241279311592::1791228704::0::1::::<>EditorNode3DGizmoPlugin<><>0<>1<><>::
-wiggle_rotation_modifier_3d.gd::GDScript::2186583141634159097::1791228704::0::1::::DMWBWiggleRotationModifier3D<>SkeletonModifier3D<><>0<>1<><>::
-wiggle_rotation_properties_3d.gd::GDScript::1755617103190172733::1791228704::0::1::::DMWBWiggleRotationProperties3D<>Resource<><>0<>1<><>::
-::res://addons/wigglebone/icons/::1791229219
+wiggle_rotation_modifier_3d.gd::GDScript::2186583141634159097::1791228704::0::1::::DMWBWiggleRotationModifier3D<>SkeletonModifier3D<>res://addons/wigglebone/icons/wiggle_rotation_modifier_3d.svg<>0<>1<><>::
+wiggle_rotation_properties_3d.gd::GDScript::1755617103190172733::1791228704::0::1::::DMWBWiggleRotationProperties3D<>Resource<>res://addons/wigglebone/icons/wiggle_rotation_properties_3d.svg<>0<>1<><>::
+::res://addons/wigglebone/icons/::1791229228
 wiggle_bone.svg::CompressedTexture2D::1161637783966111517::1791228704::1791229228::1::::<><><>0<>0<>e735526d169beca4333f299940ce1857<>res://.godot/imported/wiggle_bone.svg-457fa1bbf3d840d4724ee46d0ca3903b.ctex::
 wiggle_position_modifier_3d.svg::CompressedTexture2D::4221456219319987161::1791228704::1791229228::1::::<><><>0<>0<>5e1df89b68aa0302c9d38de1892428c1<>res://.godot/imported/wiggle_position_modifier_3d.svg-a03e498407151965523e20324f6744f3.ctex::
 wiggle_position_properties_3d.svg::CompressedTexture2D::779411712347496588::1791228704::1791229228::1::::<><><>0<>0<>51d4176ed0297622e2b066be000c8033<>res://.godot/imported/wiggle_position_properties_3d.svg-72cd938e6235b2e88094d4eb62c53fc4.ctex::
 wiggle_rotation_modifier_3d.svg::CompressedTexture2D::2975348905221240086::1791228704::1791229228::1::::<><><>0<>0<>08847ce5158d5ddbf5b327eb1757b264<>res://.godot/imported/wiggle_rotation_modifier_3d.svg-c4be16245b306c4e366367e1d8dc7874.ctex::
 wiggle_rotation_properties_3d.svg::CompressedTexture2D::4674376573482292132::1791228704::1791229228::1::::<><><>0<>0<>db5876e5554308688294ea35fba5e6d4<>res://.godot/imported/wiggle_rotation_properties_3d.svg-972976b00d5535882aaa366c8bae21ab.ctex::
-::res://assets/::1791229219
+::res://assets/::1791229229
 background.tscn::PackedScene::3406276852349458060::1791228705::0::1::::<><><>0<>0<><>::uid://brbtohct73mlt::::res://assets/level/checkboard.png
 gun.glb::PackedScene::2922921067469437781::1791228705::1791229229::1::::<><><>0<>0<>ea554690f58ebdecc29a706fe15092c7<>res://.godot/imported/gun.glb-50d8af11a64fbaa7bba421ea60fde5a0.scn::
 metalfloor.glb::PackedScene::4496083291085228127::1791228705::1791229229::1::::<><><>0<>0<>b9cee39c32eb68737da03df159a55742<>res://.godot/imported/metalfloor.glb-b6bfc1d2dbad5e38b307ce5aac6e939c.scn::uid://dtmtx7n1rrxck::::res://assets/metalfloor_metalfloor.jpg
 metalfloor_metalfloor.jpg::CompressedTexture2D::8518819011407406786::1791228705::1791229228::1::::<><><>0<>0<>10f72a844bee1729dfea110071bd756d<>res://.godot/imported/metalfloor_metalfloor.jpg-303c55c0c1257400e70668bbecacc5bc.s3tc.ctex::
-::res://assets/fonts/::1791229219
+::res://assets/fonts/::1791229228
 Inter-Bold.ttf::FontFile::5958031395052463210::1791228705::1791229228::1::::<><><>0<>0<>715c556c38ef2af5c0bce3713183a3eb<>res://.godot/imported/Inter-Bold.ttf-a5ad99df38f16db10521b9e30ae68471.fontdata::
-::res://assets/icons/::1791229219
+::res://assets/icons/::1791229228
 border_icon.png::CompressedTexture2D::5226261170526584214::1791228705::1791229228::1::::<><><>0<>0<>03ede6d7030fd0a83783adead14bb3d0<>res://.godot/imported/border_icon.png-c618bd1684f34570416a69109f2de7a7.s3tc.ctex::
 fire_ball_icon.png::CompressedTexture2D::6732956268839868185::1791228705::1791229228::1::::<><><>0<>0<>2cf74ac441e72f12b81299d3c119e57d<>res://.godot/imported/fire_ball_icon.png-bc6a3b0ca1721642510a6df06cfde110.ctex::
 hit_box_3d.svg::CompressedTexture2D::2382544832786128631::1791228705::1791229228::1::::<><><>0<>0<>c2db5043b422450efc272db7395bd1ba<>res://.godot/imported/hit_box_3d.svg-decfb0465473976eb5feffaa15a4a317.ctex::
 hurt_box_3d.svg::CompressedTexture2D::6666729679661117155::1791228705::1791229228::1::::<><><>0<>0<>d2ea41d7fe7cd6838b1066df11cd9fe0<>res://.godot/imported/hurt_box_3d.svg-8566699a5069fb603c5fd7fefed71775.ctex::
 ice_spikes_icon.png::CompressedTexture2D::7847833199732000029::1791228705::1791229228::1::::<><><>0<>0<>4b0c7419192dcb67f745ccd8cf419075<>res://.godot/imported/ice_spikes_icon.png-60dae13e638e33ff9e2048f307bac3ef.ctex::
 skull_icon.png::CompressedTexture2D::8298612014760964626::1791228705::1791229228::1::::<><><>0<>0<>29136b792e2f851366edd6ccf60c9125<>res://.godot/imported/skull_icon.png-5de68c94314d30833c6eacb53dd7fbaf.ctex::
-::res://assets/level/::1791229219
+::res://assets/level/::1791229228
 checkboard.png::CompressedTexture2D::3582874398931153145::1791228705::1791229228::1::::<><><>0<>0<>6ed8cc2c9573b417875cc251e874192f<>res://.godot/imported/checkboard.png-e7f9e46e90861fac5b57619fc2a1b395.ctex::
-::res://assets/Models/::1791229219
+::res://assets/Models/::1791229229
 Battery.glb::PackedScene::4284985440855023277::1791228704::1791229228::1::::<><><>0<>0<>77269ba2cfeed443f1bbe984bcc9c473<>res://.godot/imported/Battery.glb-da9728e52911991105845fef1eaed0b5.scn::
 Caterminal.glb::PackedScene::7425737723139369134::1791228704::1791229228::1::::<><><>0<>0<>8ac0407ba7057e9379716cf744c4b829<>res://.godot/imported/Caterminal.glb-441d2b15521eeb7335264f053d4282b8.scn::
 exit.glb::PackedScene::4613171191031852347::1791228705::1791229228::1::::<><><>0<>0<>6a4a5f76af840f2b4be928b779b8c3ce<>res://.godot/imported/exit.glb-0ac14b831555007723a01c8e2b64d9ce.scn::
@@ -183,7 +183,7 @@ rotate_z.gdshaderinc::ShaderInclude::4757433101528038057::1791228705::0::1::::<>
 screen_shader.gdshader::Shader::5527454239138786542::1791228705::0::1::::<><><>0<>0<><>::
 voronoi.gdshaderinc::ShaderInclude::2213897587727319760::1791228705::0::1::::<><><>0<>0<><>::
 ::res://assets/skins/::1791228705
-::res://assets/skins/dummy/::1791229219
+::res://assets/skins/dummy/::1791229229
 dummy.gdshader::Shader::7122026674897311870::1791228705::0::1::::<><><>0<>0<><>::
 dummy.glb::PackedScene::1834983117054316381::1791228705::1791229229::1::::<><><>0<>0<>e9bffed48540bc8007f99afb4f7eef47<>res://.godot/imported/dummy.glb-5eb86eb3bc6372d15e81d17c049299d4.scn::uid://bi0o8ccvuiej4::::res://assets/skins/dummy/dummy_diffuse.png<>uid://dv0sajpiuwfv7::::res://assets/skins/dummy/dummy_roughness.png<>uid://dun4w5y08xrn3::::res://assets/skins/dummy/dummy_normal.png
 dummy_diffuse.png::CompressedTexture2D::3000449954863945727::1791228705::1791229228::1::::<><><>0<>0<>605af4b90778607dc63061edd97d12b1<>res://.godot/imported/dummy_diffuse.png-ac5a8e9affeae3c74220ecb6ee153702.s3tc.ctex::
@@ -195,7 +195,7 @@ dummy_skin_3d.tscn::PackedScene::7389294123253476989::1791228705::0::1::::<><><>
 ::res://assets/skins/gobot/::1791228705
 gobot_skin_3d.gd::GDScript::745953694701342275::1791228705::0::1::::GobotSkin3D<>Node3D<><>0<>0<><>::
 gobot_skin_3d.tscn::PackedScene::6517059689397096127::1791228705::0::1::::<><><>0<>0<><>::uid://kvl0pd2ex8ix::::res://assets/skins/gobot/gobot_skin_3d.gd<>uid://kod0awm1ha4o::::res://assets/skins/gobot/model/gobot.glb<>uid://dq675fmt1rg8c::::res://assets/skins/gobot/textures/open_eye.png<>uid://cujalyga580eq::::res://assets/skins/gobot/materials/gobot_mat.tres<>uid://k45w5evgjbtp::::res://assets/skins/gobot/model/custom/custom_lib.res<>uid://cpxlfujoy8ppl::::res://assets/skins/gobot/model/plastic_wand.glb<>uid://b0qhjvf7qhtpn::::res://assets/skins/gobot/materials/plastic_wand.gdshader<>uid://bn80ig2aqo0fn::::res://assets/skins/gobot/materials/magic_sparks_particles.gdshader<>uid://dljbapykdurtf::::res://assets/skins/gobot/materials/spark.png<>uid://dtqjiw28k8wpt::::res://assets/skins/gobot/model/witch_hat.glb<>uid://dux0o32bwi83::::res://assets/skins/gobot/materials/hat_mat.tres<>uid://c1tapjo3psxes::::res://addons/wigglebone/wiggle_bone.gd<>uid://btrxy1vhx0ma2::::res://addons/wigglebone/wiggle_properties.gd<>uid://b4sq76ilqyc0m::::res://assets/skins/gobot/materials/cape.gdshader<>uid://xwl0c1eijtvm::::res://assets/skins/gobot/model/cape.glb
-::res://assets/skins/gobot/materials/::1791229219
+::res://assets/skins/gobot/materials/::1791229228
 cape.gdshader::Shader::4460086207162743558::1791228705::0::1::::<><><>0<>0<><>::
 character_shader.gdshader::Shader::3324454977391278130::1791228705::0::1::::<><><>0<>0<><>::
 eye_mat.tres::StandardMaterial3D::7765650509386433557::1791228705::0::1::::<><><>0<>0<><>::uid://dq675fmt1rg8c::::res://assets/skins/gobot/textures/open_eye.png
@@ -205,7 +205,7 @@ magic_sparks_particles.gdshader::Shader::3368532684913676235::1791228705::0::1::
 plastic_wand.gdshader::Shader::4174614021993364047::1791228705::0::1::::<><><>0<>0<><>::
 spark.png::CompressedTexture2D::7949980273261691615::1791228705::1791229228::1::::<><><>0<>0<>48538f860cd97b5e0f91483cbe99c3a6<>res://.godot/imported/spark.png-ae52135d615c2191bd2e851b5dd1364e.ctex::
 witch_hat.gdshader::Shader::5245842071931351220::1791228705::0::1::::<><><>0<>0<><>::
-::res://assets/skins/gobot/model/::1791229219
+::res://assets/skins/gobot/model/::1791229229
 cape.glb::PackedScene::1660472391436537322::1791228705::1791229229::1::::<><><>0<>0<>367708f25ed51442eba59f28cae94d60<>res://.godot/imported/cape.glb-54d0ac6ef4badfc0f79bc1c72416f1c7.scn::
 gobot.glb::PackedScene::731016555329025600::1791228705::1791229229::1::::<><><>0<>0<>e549d27531374e47cb1fb5baa7ba6ffe<>res://.godot/imported/gobot.glb-342ffff555762c5c97dc8406e8c2e2b4.scn::
 gobot_gobot_diffuse.png::CompressedTexture2D::3782835701294553970::1791228705::1791229228::1::::<><><>0<>0<>447afb8fc468999f8996875cd42da270<>res://.godot/imported/gobot_gobot_diffuse.png-88bd1e6eafab6674c0227f6bb4bbf63a.ctex::
@@ -221,11 +221,11 @@ woodwand.obj::Mesh::5211044140404780255::1791228705::1791229228::1::::<><><>0<>0
 custom_lib.res::AnimationLibrary::763617771339198433::1791228705::0::1::::<><><>0<>0<><>::uid://c4s3bebvtgey4::::res://assets/skins/gobot/model/custom/run_step.res
 hurt.res::Animation::1002193859794753742::1791228705::0::1::::<><><>0<>0<><>::uid://yj5yx07nva6l::::res://assets/skins/gobot/textures/hurt_eyes.png<>uid://dq675fmt1rg8c::::res://assets/skins/gobot/textures/open_eye.png
 run_step.res::Animation::6847178706671563677::1791228705::0::1::::<><><>0<>0<><>::
-::res://assets/skins/gobot/textures/::1791229219
+::res://assets/skins/gobot/textures/::1791229228
 closed_eyes.png::CompressedTexture2D::5130339085040898258::1791228705::1791229228::1::::<><><>0<>0<>3b4a431ae1f2c062ac5582a7353755b1<>res://.godot/imported/closed_eyes.png-aad4120f93fc64cedd4d47acfcdd74fd.ctex::
 hurt_eyes.png::CompressedTexture2D::1704977264065322721::1791228705::1791229228::1::::<><><>0<>0<>fa3f779945e1077c4a86bf3336404c2f<>res://.godot/imported/hurt_eyes.png-30620b06081e02a02f73519464b44b7f.ctex::
 open_eye.png::CompressedTexture2D::8348276059302445828::1791228705::1791229228::1::::<><><>0<>0<>e1371549ce4a90afa7ab81680eba11ae<>res://.godot/imported/open_eye.png-69c6c74b21d191df52360b80041637c3.ctex::
-::res://assets/sounds/::1791229219
+::res://assets/sounds/::1791229228
 boop_1.wav::AudioStreamWAV::4614082512942926544::1791228705::1791229228::1::::<><><>0<>0<>326bb2266e863c873fce5050843c43ef<>res://.godot/imported/boop_1.wav-ff15074ddfa8467bb07492cf5d199299.sample::
 kick_3.ogg::AudioStreamOggVorbis::5158243995070168288::1791228705::1791229228::1::::<><><>0<>0<>761a62137caa6045139fb64e2d79899e<>res://.godot/imported/kick_3.ogg-a40fe7fa04ff3e701149ec30b53fce7f.oggvorbisstr::
 poof_1.wav::AudioStreamWAV::1548670263002681036::1791228705::1791229228::1::::<><><>0<>0<>8a0f59b287bc5a55a4d243fca0824495<>res://.godot/imported/poof_1.wav-9c62c0b8e708215a469afcd888075818.sample::
@@ -235,7 +235,7 @@ small_gunshot.mp3::AudioStreamMP3::7950333928033899329::1791228705::1791229228::
 squeak toy - squeak1.wav::AudioStreamWAV::492842447307259858::1791228705::1791229228::1::::<><><>0<>0<>5e1e4951eb6143edad91d99ea0e5ea59<>res://.godot/imported/squeak toy - squeak1.wav-53f5ba9c0bc3c713b343cc8e4f2a444a.sample::
 ::res://assets/vfx/::1791228705
 projectile_skin_3d.gd::GDScript::6284345089912029382::1791228705::0::1::::ProjectileSkin3D<>Node3D<><>0<>1<><>::
-::res://assets/vfx/fireball/::1791229219
+::res://assets/vfx/fireball/::1791229228
 fireball.gd::GDScript::994759071837176282::1791228705::0::1::::<>ProjectileSkin3D<><>0<>1<><>::
 fireball.gdshader::Shader::1438466937266222151::1791228705::0::1::::<><><>0<>0<><>::
 fireball.glb::PackedScene::5101806130535050743::1791228705::1791229228::1::::<><><>0<>0<>02c3d8092bebfbf43cdc334aaff6c8ed<>res://.godot/imported/fireball.glb-5a8d6befbb85be74ed3d2d0eb2e61681.scn::
@@ -244,11 +244,11 @@ fireball_emission.tscn::PackedScene::7323223824059086575::1791228705::0::1::::<>
 fireball_impact.tscn::PackedScene::1954541905163135589::1791228705::0::1::::<><><>0<>0<><>::uid://cqdbknfp24vng::::res://assets/vfx/fireball/fireball_particles.gdshader<>uid://cchdb2mkipjp4::::res://assets/vfx/fireball/impact/ember.gdshader<>uid://cacm3my5rnyaf::::res://assets/vfx/fireball/impact/spark.png<>uid://bai1togqfuxr::::res://assets/vfx/fireball/impact/flash_impact.png
 fireball_mat.tres::ShaderMaterial::2789381961040373233::1791228705::0::1::::<><><>0<>0<><>::uid://uq2ltm6j38dn::::res://assets/vfx/fireball/fireball.gdshader
 fireball_particles.gdshader::Shader::5902135265035065932::1791228705::0::1::::<><><>0<>0<><>::
-::res://assets/vfx/fireball/impact/::1791229219
+::res://assets/vfx/fireball/impact/::1791229228
 ember.gdshader::Shader::4927855072846641911::1791228705::0::1::::<><><>0<>0<><>::
 flash_impact.png::CompressedTexture2D::70722030086820311::1791228705::1791229228::1::::<><><>0<>0<>20b1801b080e288491c646e0aadc5952<>res://.godot/imported/flash_impact.png-9454b316358e19dec9d05303ccec3991.ctex::
 spark.png::CompressedTexture2D::4777749397778683165::1791228705::1791229228::1::::<><><>0<>0<>58f72c4d539c2ef553975cbaa6833a43<>res://.godot/imported/spark.png-556faf328db41c6212e62aa2385ec4a1.s3tc.ctex::
-::res://assets/vfx/ice_spikes/::1791229219
+::res://assets/vfx/ice_spikes/::1791229228
 ice_shards.gdshader::Shader::2854097568837118618::1791228705::0::1::::<><><>0<>0<><>::
 ice_shards_process.gdshader::Shader::7860492505543706449::1791228705::0::1::::<><><>0<>0<><>::
 ice_spike.obj::Mesh::6567416371113513966::1791228705::1791229228::1::::<><><>0<>0<>bbe2ac20656342a957baeba33f4831af<>res://.godot/imported/ice_spike.obj-d69fc0d29612b91489e13774507a253b.mesh<*>res://.godot/imported/ice_spike.obj-d69fc0d29612b91489e13774507a253b.mesh::
@@ -263,14 +263,14 @@ ice_spikes.gdshader::Shader::6641394426140155651::1791228705::0::1::::<><><>0<>0
 ice_spikes_mat.tres::ShaderMaterial::456273961731409171::1791228705::0::1::::<><><>0<>0<><>::uid://c1ve2cbhklirj::::res://assets/vfx/ice_spikes/materials/ice_spikes.gdshader
 ice_spikes_process.gdshader::Shader::8209470501807118079::1791228705::0::1::::<><><>0<>0<><>::
 ice_spikes_process_mat.tres::ShaderMaterial::6962329970462724275::1791229219::0::1::::<><><>0<>0<><>::uid://do7y1rne2hqax::::res://assets/vfx/ice_spikes/materials/ice_spikes_process.gdshader
-::res://assets/vfx/smoke_vfx/::1791229219
+::res://assets/vfx/smoke_vfx/::1791229228
 default.res::Animation::821507829150262441::1791228705::0::1::::<><><>0<>0<><>::
 metalfloor.glb::PackedScene::1067204746235115710::1791228705::1791229228::1::::<><><>0<>0<>676b531286ad64bf76d00f6bd9829db7<>res://.godot/imported/metalfloor.glb-d2b95146a235123a319d201226808a97.scn::uid://ig1t1yo5wksd::::res://assets/vfx/smoke_vfx/metalfloor_metalfloor.jpg
 metalfloor_metalfloor.jpg::CompressedTexture2D::575510990884211423::1791228705::1791229228::1::::<><><>0<>0<>c0403f19079725012a6f6f6435b7252f<>res://.godot/imported/metalfloor_metalfloor.jpg-60e6699587dad71c9c0ac67e1a013cda.s3tc.ctex::
 smoke_explosion.gd::GDScript::5181959442779722135::1791228705::0::1::::<>Node3D<><>0<>0<><>::
 smoke_explosion.tscn::PackedScene::4168529298847383674::1791228705::0::1::::<><><>0<>0<><>::uid://cf3gd54fsh240::::res://assets/vfx/smoke_vfx/smoke_explosion.gd<>uid://ctnipgxo3l72h::::res://assets/vfx/smoke_vfx/materials/outer_smoke.tres<>uid://cqc5oosv47bft::::res://assets/vfx/smoke_vfx/materials/stars.gdshader<>uid://dyn0rlegpkah1::::res://assets/vfx/smoke_vfx/materials/star_icon.png<>uid://q7bgkpw4dxp5::::res://assets/vfx/smoke_vfx/smoke_sphere.obj<>uid://do72v57af002o::::res://assets/vfx/smoke_vfx/materials/star_trail.gdshader<>uid://dr7gyunhpjiwf::::res://assets/vfx/smoke_vfx/materials/inner_smoke.tres<>uid://lx7d4xuqn314::::res://assets/vfx/smoke_vfx/default.res<>uid://wcgmxfexvlrg::::res://assets/sounds/poof_1.wav
 smoke_sphere.obj::Mesh::1189153567538672608::1791228705::1791229228::1::::<><><>0<>0<>e13656420cc9101dc168c23fb5f17315<>res://.godot/imported/smoke_sphere.obj-c83287513285a1b00cf6c77436c13c94.mesh<*>res://.godot/imported/smoke_sphere.obj-c83287513285a1b00cf6c77436c13c94.mesh::
-::res://assets/vfx/smoke_vfx/materials/::1791229219
+::res://assets/vfx/smoke_vfx/materials/::1791229228
 inner_smoke.gdshader::Shader::5111132915637293711::1791228705::0::1::::<><><>0<>0<><>::
 inner_smoke.tres::ShaderMaterial::8418940712953999849::1791228705::0::1::::<><><>0<>0<><>::uid://ce24u251lkts6::::res://assets/vfx/smoke_vfx/materials/inner_smoke.gdshader
 outer_smoke.gdshader::Shader::5530093565611594910::1791228705::0::1::::<><><>0<>0<><>::
@@ -278,14 +278,15 @@ outer_smoke.tres::ShaderMaterial::6133779181506885685::1791228705::0::1::::<><><
 stars.gdshader::Shader::5901838896128040497::1791228705::0::1::::<><><>0<>0<><>::
 star_icon.png::CompressedTexture2D::8872180076739522440::1791228705::1791229228::1::::<><><>0<>0<>cd8d248d9101576e106b6b46ab655cc3<>res://.godot/imported/star_icon.png-ed64184f560f429d58b9db533b2dc91a.s3tc.ctex::
 star_trail.gdshader::Shader::8209644435760306464::1791228705::0::1::::<><><>0<>0<><>::
-::res://Finished assets/::1791229219
-::res://lessons/::1791229222
-game.tscn::PackedScene::3621540155012204532::1791229219::0::1::::<><><>0<>0<><>::uid://btfvaxt4o1f78::::res://lessons/player_3d.tscn<>uid://brbtohct73mlt::::res://assets/level/checkboard.png<>uid://ccypd81s0p18j::::res://new_standard_material_3d.tres<>uid://7n1ap2he21li::::res://lessons/target_3d.tscn<>uid://b5b63nfvhxted::::res://assets/metalfloor.glb<>uid://cjxvxlxnsni7o::::res://Test Assets/Caterminal.glb<>uid://c84a84bhu82eb::::res://Test Assets/Battery.glb<>uid://nwkfndvdudv8::::res://Test Assets/PlasmaBolter.glb<>uid://d13yl738xkgep::::res://shiny_telaport.glb
+::res://Finished assets/::1791229448
+::res://lessons/::1791229614
+game.tscn::PackedScene::3621540155012204532::1791229449::0::1::::<><><>0<>0<><>::uid://btfvaxt4o1f78::::res://lessons/player_3d.tscn<>uid://brbtohct73mlt::::res://assets/level/checkboard.png<>uid://ccypd81s0p18j::::res://new_standard_material_3d.tres<>uid://7n1ap2he21li::::res://lessons/target_3d.tscn<>uid://b5b63nfvhxted::::res://assets/metalfloor.glb<>uid://cjxvxlxnsni7o::::res://Test Assets/Caterminal.glb<>uid://c84a84bhu82eb::::res://Test Assets/Battery.glb<>uid://nwkfndvdudv8::::res://Test Assets/PlasmaBolter.glb
 player_3d.gd::GDScript::7029284395653828004::1791228705::0::1::::<>CharacterBody3D<><>0<>0<><>::
 player_3d.tscn::PackedScene::3731606897159812997::1791229222::0::1::::<><><>0<>0<><>::uid://cy36aygvs66pn::::res://assets/skins/gobot/gobot_skin_3d.tscn<>uid://bcxue54467rqp::::res://player_3d_experimental.gd<>uid://cwws4dah8im47::::res://lessons/wand.tscn<>uid://ikaty2xb1dur::::res://Hurtbox_3d.gd
 projectile_3d.gd::GDScript::2125762943838514393::1791228705::0::1::::Projectile3D<>Hitbox3D<><>0<>1<><>::
 projectile_3d.tscn::PackedScene::8194846024194070631::1791228705::0::1::::<><><>0<>0<><>::uid://5j0af5y5kxgb::::res://lessons/projectile_3d.gd<>uid://caxbqhwe5nxb3::::res://assets/vfx/fireball/fireball.tscn<>uid://232aww8oks7n::::res://assets/vfx/fireball/fireball_impact.tscn
 projectile_3d_2.tscn::PackedScene::7817662570944367834::1791228705::0::1::::<><><>0<>0<><>::uid://5j0af5y5kxgb::::res://lessons/projectile_3d.gd<>uid://s7nj1a3i2m1m::::res://assets/vfx/ice_spikes/ice_spikes.tscn<>uid://232aww8oks7n::::res://assets/vfx/fireball/fireball_impact.tscn
+shiny_telaport.glb::PackedScene::4481260788954849907::1791229613::1791229614::1::::<><><>0<>0<>ca7ab71124427be37700edf89313715c<>res://.godot/imported/shiny_telaport.glb-f293138b6deec3d41cc601a7bea5c340.scn::
 target_3d.gd::GDScript::5224525392620871329::1791228705::0::1::::Mob3D<>CharacterBody3D<><>0<>0<><>::
 target_3d.tscn::PackedScene::2274459378916197790::1791228705::0::1::::<><><>0<>0<><>::uid://cgo2f1n5rb8af::::res://lessons/target_3d.gd<>uid://ddjouhm76gjbx::::res://assets/skins/dummy/dummy_skin_3d.tscn<>uid://ikaty2xb1dur::::res://Hurtbox_3d.gd
 wand.gd::GDScript::5386718414820746853::1791228705::0::1::::<>Marker3D<><>0<>0<><>::
