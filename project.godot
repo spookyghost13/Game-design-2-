@@ -20,6 +20,7 @@ config/icon="uid://bv4g2a31erw42"
 [autoload]
 
 UITestPanel="*uid://bnnxfl3thl8qk"
+Metadata="*uid://bueias8qhdf4s"
 
 [debug]
 
