@@ -1,4 +1,5 @@
-res://assets/vfx/ice_spikes/materials/frost_mat.tres
 res://lessons/game.tscn
 res://addons/gdpractice/assets/theme.tres
 res://assets/vfx/ice_spikes/materials/ice_spikes_process_mat.tres
+res://assets/vfx/ice_spikes/materials/frost_mat.tres
+res://.gitignore.txt
